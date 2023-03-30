@@ -9,7 +9,6 @@ pipeline{
         stage ('test'){
             steps{
                 echo 'testing..'
-                input "Does the staging environment look ok?"
             }
         }
         stage ('deploy'){
