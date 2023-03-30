@@ -4,8 +4,7 @@ pipeline{
             stage ('Build'){
                 steps{
                     echo'Building..'
-                    input "Does the staging environment look ok?"
-                }
+                    }
             }
         stage ('test'){
             steps{
