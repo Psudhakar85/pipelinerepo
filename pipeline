@@ -1,5 +1,5 @@
 pipeline{
-    lable
+    agent key
     stages{
             stage ('Build'){
                 steps{
