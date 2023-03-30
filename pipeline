@@ -1,5 +1,5 @@
 pipeline{
-    key
+    lable
     stages{
             stage ('Build'){
                 steps{
