@@ -24,12 +24,3 @@ pipeline{
         
     }
 }
-
-
-node{
-    stage{
-        step('Build'){
-            steps 'building'
-        }
-    }
-}
