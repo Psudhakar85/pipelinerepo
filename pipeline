@@ -21,6 +21,15 @@ pipeline{
                 echo "Running ${env.Build_ID} on ${env.JENKINS_URL}"
             }
         }
+        
+    }
+}
 
+
+node{
+    stage{
+        step('Build'){
+            steps 'building'
+        }
     }
 }
